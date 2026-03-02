@@ -1,5 +1,6 @@
 //routes/index.js
 import express from "express";
+import User from "../models/User.js";
 const router = express.Router();
 
 import supplierRoutes from "./supplierRoutes.js";
@@ -22,6 +23,8 @@ import stockMovementRoutes from './stockMovementRoutes.js';
 router.get("/test", (req, res) => {
   res.json({ message: "API working successfully!" });
 });
+
+
 
 // Mount existing routes
 router.use("/suppliers", supplierRoutes);
