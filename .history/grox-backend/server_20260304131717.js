@@ -56,7 +56,7 @@ app.get("/init-db", async (req, res) => {
 });
 
 // Root Test Route
-app.get("/", (req, res) => res.send("Pharmacy Server backend is running 🚀"));
+app.get("/", (req, res) => res.send("Pharmacy backend is running 🚀"));
 
 // Mount all other routes
 app.use(indexRoutes);
