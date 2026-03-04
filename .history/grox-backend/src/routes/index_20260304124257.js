@@ -20,7 +20,7 @@ import stockMovementRoutes from './stockMovementRoutes.js';
 
 // Example test route
 router.get("/test", (req, res) => {
-  res.json({ message: "Pharmacy API working successfully!" });
+  res.json({ message: "PharAPI working successfully!" });
 });
 
 // Mount existing routes
