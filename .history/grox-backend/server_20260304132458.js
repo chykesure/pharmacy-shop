@@ -17,7 +17,7 @@ connectDB();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://beloveth-pharmacy-shop.onrender.com",
+    "https://komolafe-and-son.onrender.com",
     "https://pharmacy-shop-server.onrender.com" // Added your backend URL just in case
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
