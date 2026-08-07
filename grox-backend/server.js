@@ -18,7 +18,8 @@ app.use(cors({
   origin: [
     "http://localhost:5173",
     "https://beloveth-pharmacy.onrender.com",
-    "https://pharmacy-shop-server.onrender.com" // Added your backend URL just in case
+    "https://beloveth-pharmacy-shop.onrender.com", // ✅ Added exact frontend URL
+    "https://pharmacy-shop-server.onrender.com"
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   credentials: true,
